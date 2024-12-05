@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#header-img {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+h1 {
+    margin-top: 10px;
+    font-size: 2.5em;
+    color: #ff6347;
+}
+
+nav ul {
+    list-style: none;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+/* Main Section Styling */
+main {
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+#menu, #order-form {
+    margin-bottom: 30px;
+}
+
+#menu h2, #order-form h2 {
+    color: #ff6347;
+    margin-bottom: 10px;
+}
+
+article {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    text-align: center;
+}
+
+article img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+article h3 {
+    color: #007bff;
+    margin-bottom: 5px;
+}
+
+article p {
+    font-size: 0.9em;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 5px;
+    font-size: 1em;
+    margin-top: 5px;
+}
+
+input[type="submit"] {
+    background-color: green;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: rgba(108, 154, 38, 0.968);
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer p {
+    font-size: 0.9em;
+    color: #777;
+}
+
+footer span{
+    color: royalblue;
+    font-weight: 700;
+}
+
+
